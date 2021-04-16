@@ -151,16 +151,13 @@
 			children = (
 				BA1B2BA7261634C6005DF22F /* AppDelegate.swift */,
 				BA1B2BAB261634C6005DF22F /* ViewController.swift */,
-				BA32F4B826289CA00055F529 /* LoginVC.swift */,
-				BA32F4BD26289E7D0055F529 /* ForgotPasswordVC.swift */,
-				BA32F4C226289FE30055F529 /* RegistrationVC.swift */,
-				BA32F4CA2628A7B70055F529 /* DashBoardVC.swift */,
-				BA1B2C15261641C5005DF22F /* ViewSuppoters.swift */,
+				BA32F4E52628AB460055F529 /* Views */,
+				BA32F4E42628AB3F0055F529 /* Models */,
+				BA32F4D92628AAD90055F529 /* Controllers */,
+				BA32F4DD2628AAF10055F529 /* Support */,
 				BA1B2BAD261634C6005DF22F /* Main.storyboard */,
 				BA1B2BB3261634CA005DF22F /* Assets.xcassets */,
 				BA1B2BB5261634CA005DF22F /* LaunchScreen.storyboard */,
-				BA1B2C0D2616412E005DF22F /* door.png */,
-				BA1B2BE3261637CD005DF22F /* Poppins */,
 				BA1B2BB8261634CA005DF22F /* Info.plist */,
 				BA1B2BB0261634C6005DF22F /* DeltaServices.xcdatamodeld */,
 			);
@@ -209,6 +206,57 @@
 				BA1B2BF6261637CD005DF22F /* Poppins-MediumItalic.ttf */,
 			);
 			path = Poppins;
+			sourceTree = "<group>";
+		};
+		BA32F4D52628AAA30055F529 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BA32F4CA2628A7B70055F529 /* DashBoardVC.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		BA32F4D62628AABB0055F529 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BA32F4B826289CA00055F529 /* LoginVC.swift */,
+				BA32F4BD26289E7D0055F529 /* ForgotPasswordVC.swift */,
+				BA32F4C226289FE30055F529 /* RegistrationVC.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BA32F4D92628AAD90055F529 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA32F4D62628AABB0055F529 /* Auth */,
+				BA32F4D52628AAA30055F529 /* DashBoard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA32F4DD2628AAF10055F529 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2BE3261637CD005DF22F /* Poppins */,
+				BA1B2C0D2616412E005DF22F /* door.png */,
+				BA1B2C15261641C5005DF22F /* ViewSuppoters.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		BA32F4E42628AB3F0055F529 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA32F4E52628AB460055F529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
