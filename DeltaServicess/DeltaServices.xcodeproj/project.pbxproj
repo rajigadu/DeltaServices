@@ -36,10 +36,17 @@
 		BA1B2C09261637CD005DF22F /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2BF6261637CD005DF22F /* Poppins-MediumItalic.ttf */; };
 		BA1B2C0E2616412E005DF22F /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2C0D2616412E005DF22F /* door.png */; };
 		BA1B2C16261641C5005DF22F /* ViewSuppoters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2C15261641C5005DF22F /* ViewSuppoters.swift */; };
+		BA23D6B2262A0BB400564668 /* OrderSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23D6B1262A0BB400564668 /* OrderSummaryVC.swift */; };
+		BA23D6B7262A0BF100564668 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23D6B6262A0BF100564668 /* PaymentVC.swift */; };
 		BA32F4B926289CA00055F529 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32F4B826289CA00055F529 /* LoginVC.swift */; };
 		BA32F4BE26289E7D0055F529 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32F4BD26289E7D0055F529 /* ForgotPasswordVC.swift */; };
 		BA32F4C326289FE30055F529 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32F4C226289FE30055F529 /* RegistrationVC.swift */; };
 		BA32F4CB2628A7B70055F529 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32F4CA2628A7B70055F529 /* DashBoardVC.swift */; };
+		BA7FC6B82629DAE300673C37 /* VerifyZipCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6B72629DAE300673C37 /* VerifyZipCodeVC.swift */; };
+		BA7FC6BD2629E50C00673C37 /* ListServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6BC2629E50C00673C37 /* ListServicesVC.swift */; };
+		BA7FC6C22629E55300673C37 /* ServicesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6C12629E55300673C37 /* ServicesListCell.swift */; };
+		BA7FC6C72629F1F800673C37 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6C62629F1F800673C37 /* ProductDetailVC.swift */; };
+		BA7FC6CC2629F7AA00673C37 /* MyCartPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6CB2629F7AA00673C37 /* MyCartPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,10 +102,17 @@
 		BA1B2BF6261637CD005DF22F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		BA1B2C0D2616412E005DF22F /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
 		BA1B2C15261641C5005DF22F /* ViewSuppoters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSuppoters.swift; sourceTree = "<group>"; };
+		BA23D6B1262A0BB400564668 /* OrderSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryVC.swift; sourceTree = "<group>"; };
+		BA23D6B6262A0BF100564668 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		BA32F4B826289CA00055F529 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BA32F4BD26289E7D0055F529 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		BA32F4C226289FE30055F529 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		BA32F4CA2628A7B70055F529 /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		BA7FC6B72629DAE300673C37 /* VerifyZipCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyZipCodeVC.swift; sourceTree = "<group>"; };
+		BA7FC6BC2629E50C00673C37 /* ListServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServicesVC.swift; sourceTree = "<group>"; };
+		BA7FC6C12629E55300673C37 /* ServicesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListCell.swift; sourceTree = "<group>"; };
+		BA7FC6C62629F1F800673C37 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		BA7FC6CB2629F7AA00673C37 /* MyCartPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +226,12 @@
 			isa = PBXGroup;
 			children = (
 				BA32F4CA2628A7B70055F529 /* DashBoardVC.swift */,
+				BA7FC6B72629DAE300673C37 /* VerifyZipCodeVC.swift */,
+				BA7FC6BC2629E50C00673C37 /* ListServicesVC.swift */,
+				BA7FC6C62629F1F800673C37 /* ProductDetailVC.swift */,
+				BA7FC6CB2629F7AA00673C37 /* MyCartPageVC.swift */,
+				BA23D6B1262A0BB400564668 /* OrderSummaryVC.swift */,
+				BA23D6B6262A0BF100564668 /* PaymentVC.swift */,
 			);
 			path = DashBoard;
 			sourceTree = "<group>";
@@ -255,6 +275,7 @@
 		BA32F4E52628AB460055F529 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA7FC6C12629E55300673C37 /* ServicesListCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -409,13 +430,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA23D6B2262A0BB400564668 /* OrderSummaryVC.swift in Sources */,
+				BA7FC6BD2629E50C00673C37 /* ListServicesVC.swift in Sources */,
+				BA7FC6C72629F1F800673C37 /* ProductDetailVC.swift in Sources */,
+				BA7FC6CC2629F7AA00673C37 /* MyCartPageVC.swift in Sources */,
 				BA1B2BB2261634C6005DF22F /* DeltaServices.xcdatamodeld in Sources */,
 				BA1B2BAC261634C6005DF22F /* ViewController.swift in Sources */,
+				BA7FC6C22629E55300673C37 /* ServicesListCell.swift in Sources */,
 				BA32F4BE26289E7D0055F529 /* ForgotPasswordVC.swift in Sources */,
 				BA1B2C16261641C5005DF22F /* ViewSuppoters.swift in Sources */,
 				BA1B2BA8261634C6005DF22F /* AppDelegate.swift in Sources */,
 				BA32F4CB2628A7B70055F529 /* DashBoardVC.swift in Sources */,
+				BA7FC6B82629DAE300673C37 /* VerifyZipCodeVC.swift in Sources */,
 				BA32F4C326289FE30055F529 /* RegistrationVC.swift in Sources */,
+				BA23D6B7262A0BF100564668 /* PaymentVC.swift in Sources */,
 				BA32F4B926289CA00055F529 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
