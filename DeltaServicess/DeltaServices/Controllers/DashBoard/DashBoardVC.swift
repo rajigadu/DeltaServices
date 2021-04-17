@@ -62,7 +62,13 @@ class DashBoardVC: UIViewController {
         self.timeLblref.text = formatter.string(from: Date())
     }
 
-
+    
+  @IBAction func btnActionMenu(_ sender: Any) {
+           sharedMenuClass.menuObj.addMenuClass(view: self.view)
+           sharedMenuClass.menuObj.menuView.delegate = self
+       }
+    
+    
     @IBAction func newBookingbtnref(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "VerifyZipCodeVC") as! VerifyZipCodeVC
 
@@ -70,4 +76,39 @@ class DashBoardVC: UIViewController {
     }
     
 
+}
+extension DashBoardVC : MenuDelegate{
+    func callMethod1(vcIndex: Int) {
+        navigationClass(index:vcIndex)
+    }
+    func MenuMethods() {
+        let edgePan = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(screenEdgeSwiped))
+        edgePan.edges = .left
+        self.view.addGestureRecognizer(edgePan)
+    }
+    
+    @objc func screenEdgeSwiped(sender:UIScreenEdgePanGestureRecognizer) {
+        
+        if sender.edges == .left {
+            sharedMenuClass.menuObj.addMenuClass(view: self.view)
+            sharedMenuClass.menuObj.menuView.delegate = self
+        }
+        else if sender.edges == .right {
+            
+        }
+    }
+    
+    func callMethod(vcIndex:Int) {
+        navigationClass(index:vcIndex)
+    }
+    
+    func touchEvents(_ direction:String) {
+        if direction == "left" {
+            sharedMenuClass.menuObj.touchEventsOnMainClass(view: self.view)
+        }
+        if direction == "right" {
+            sharedMenuClass.menuObj.touchEventsOnMainClass(view: self.view)
+        }
+    }
+    
 }

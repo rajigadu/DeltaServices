@@ -47,6 +47,18 @@
 		BA7FC6C22629E55300673C37 /* ServicesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6C12629E55300673C37 /* ServicesListCell.swift */; };
 		BA7FC6C72629F1F800673C37 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6C62629F1F800673C37 /* ProductDetailVC.swift */; };
 		BA7FC6CC2629F7AA00673C37 /* MyCartPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6CB2629F7AA00673C37 /* MyCartPageVC.swift */; };
+		BACECC26262B3E4500EEAE16 /* MenuSharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC21262B3E4500EEAE16 /* MenuSharedClass.swift */; };
+		BACECC27262B3E4500EEAE16 /* MenuClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC22262B3E4500EEAE16 /* MenuClassView.swift */; };
+		BACECC28262B3E4500EEAE16 /* MenuCustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC23262B3E4500EEAE16 /* MenuCustCell.swift */; };
+		BACECC29262B3E4500EEAE16 /* menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACECC24262B3E4500EEAE16 /* menu.xib */; };
+		BACECC2A262B3E4500EEAE16 /* MenuCellX.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACECC25262B3E4500EEAE16 /* MenuCellX.xib */; };
+		BACECC30262B400600EEAE16 /* ProfileEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC2F262B400600EEAE16 /* ProfileEditVC.swift */; };
+		BACECC35262B407E00EEAE16 /* ChangepasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC34262B407E00EEAE16 /* ChangepasswordVC.swift */; };
+		BACECC3A262B40B600EEAE16 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC39262B40B600EEAE16 /* OrdersVC.swift */; };
+		BACECC3F262B40EB00EEAE16 /* SubscriptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC3E262B40EB00EEAE16 /* SubscriptionsVC.swift */; };
+		BACECC44262B413500EEAE16 /* PaymentHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC43262B413500EEAE16 /* PaymentHistoryVC.swift */; };
+		BACECC49262B418100EEAE16 /* CouponsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC48262B418100EEAE16 /* CouponsVC.swift */; };
+		BACECC4E262B548D00EEAE16 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACECC4D262B548D00EEAE16 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +125,18 @@
 		BA7FC6C12629E55300673C37 /* ServicesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListCell.swift; sourceTree = "<group>"; };
 		BA7FC6C62629F1F800673C37 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
 		BA7FC6CB2629F7AA00673C37 /* MyCartPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartPageVC.swift; sourceTree = "<group>"; };
+		BACECC21262B3E4500EEAE16 /* MenuSharedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSharedClass.swift; sourceTree = "<group>"; };
+		BACECC22262B3E4500EEAE16 /* MenuClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuClassView.swift; sourceTree = "<group>"; };
+		BACECC23262B3E4500EEAE16 /* MenuCustCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCustCell.swift; sourceTree = "<group>"; };
+		BACECC24262B3E4500EEAE16 /* menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menu.xib; sourceTree = "<group>"; };
+		BACECC25262B3E4500EEAE16 /* MenuCellX.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCellX.xib; sourceTree = "<group>"; };
+		BACECC2F262B400600EEAE16 /* ProfileEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditVC.swift; sourceTree = "<group>"; };
+		BACECC34262B407E00EEAE16 /* ChangepasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangepasswordVC.swift; sourceTree = "<group>"; };
+		BACECC39262B40B600EEAE16 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		BACECC3E262B40EB00EEAE16 /* SubscriptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsVC.swift; sourceTree = "<group>"; };
+		BACECC43262B413500EEAE16 /* PaymentHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistoryVC.swift; sourceTree = "<group>"; };
+		BACECC48262B418100EEAE16 /* CouponsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsVC.swift; sourceTree = "<group>"; };
+		BACECC4D262B548D00EEAE16 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +192,7 @@
 				BA32F4E52628AB460055F529 /* Views */,
 				BA32F4E42628AB3F0055F529 /* Models */,
 				BA32F4D92628AAD90055F529 /* Controllers */,
+				BACECC20262B3E4500EEAE16 /* SideMenu */,
 				BA32F4DD2628AAF10055F529 /* Support */,
 				BA1B2BAD261634C6005DF22F /* Main.storyboard */,
 				BA1B2BB3261634CA005DF22F /* Assets.xcassets */,
@@ -250,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				BA32F4D62628AABB0055F529 /* Auth */,
+				BACECC2E262B3FEB00EEAE16 /* Menu */,
 				BA32F4D52628AAA30055F529 /* DashBoard */,
 			);
 			path = Controllers;
@@ -261,6 +287,7 @@
 				BA1B2BE3261637CD005DF22F /* Poppins */,
 				BA1B2C0D2616412E005DF22F /* door.png */,
 				BA1B2C15261641C5005DF22F /* ViewSuppoters.swift */,
+				BACECC4D262B548D00EEAE16 /* Device.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -278,6 +305,31 @@
 				BA7FC6C12629E55300673C37 /* ServicesListCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BACECC20262B3E4500EEAE16 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BACECC21262B3E4500EEAE16 /* MenuSharedClass.swift */,
+				BACECC22262B3E4500EEAE16 /* MenuClassView.swift */,
+				BACECC23262B3E4500EEAE16 /* MenuCustCell.swift */,
+				BACECC24262B3E4500EEAE16 /* menu.xib */,
+				BACECC25262B3E4500EEAE16 /* MenuCellX.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		BACECC2E262B3FEB00EEAE16 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BACECC2F262B400600EEAE16 /* ProfileEditVC.swift */,
+				BACECC34262B407E00EEAE16 /* ChangepasswordVC.swift */,
+				BACECC39262B40B600EEAE16 /* OrdersVC.swift */,
+				BACECC3E262B40EB00EEAE16 /* SubscriptionsVC.swift */,
+				BACECC43262B413500EEAE16 /* PaymentHistoryVC.swift */,
+				BACECC48262B418100EEAE16 /* CouponsVC.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +441,7 @@
 				BA1B2C0E2616412E005DF22F /* door.png in Resources */,
 				BA1B2BF9261637CD005DF22F /* Poppins-ExtraLightItalic.ttf in Resources */,
 				BA1B2C00261637CD005DF22F /* Poppins-BlackItalic.ttf in Resources */,
+				BACECC29262B3E4500EEAE16 /* menu.xib in Resources */,
 				BA1B2BF7261637CD005DF22F /* Poppins-ExtraLight.ttf in Resources */,
 				BA1B2C07261637CD005DF22F /* Poppins-SemiBold.ttf in Resources */,
 				BA1B2BFA261637CD005DF22F /* Poppins-BoldItalic.ttf in Resources */,
@@ -399,6 +452,7 @@
 				BA1B2C03261637CD005DF22F /* Poppins-LightItalic.ttf in Resources */,
 				BA1B2BB7261634CA005DF22F /* LaunchScreen.storyboard in Resources */,
 				BA1B2BFD261637CD005DF22F /* Poppins-SemiBoldItalic.ttf in Resources */,
+				BACECC2A262B3E4500EEAE16 /* MenuCellX.xib in Resources */,
 				BA1B2C02261637CD005DF22F /* Poppins-Regular.ttf in Resources */,
 				BA1B2BFE261637CD005DF22F /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				BA1B2C04261637CD005DF22F /* Poppins-Bold.ttf in Resources */,
@@ -432,19 +486,29 @@
 			files = (
 				BA23D6B2262A0BB400564668 /* OrderSummaryVC.swift in Sources */,
 				BA7FC6BD2629E50C00673C37 /* ListServicesVC.swift in Sources */,
+				BACECC49262B418100EEAE16 /* CouponsVC.swift in Sources */,
+				BACECC26262B3E4500EEAE16 /* MenuSharedClass.swift in Sources */,
 				BA7FC6C72629F1F800673C37 /* ProductDetailVC.swift in Sources */,
+				BACECC3A262B40B600EEAE16 /* OrdersVC.swift in Sources */,
 				BA7FC6CC2629F7AA00673C37 /* MyCartPageVC.swift in Sources */,
 				BA1B2BB2261634C6005DF22F /* DeltaServices.xcdatamodeld in Sources */,
 				BA1B2BAC261634C6005DF22F /* ViewController.swift in Sources */,
 				BA7FC6C22629E55300673C37 /* ServicesListCell.swift in Sources */,
+				BACECC30262B400600EEAE16 /* ProfileEditVC.swift in Sources */,
 				BA32F4BE26289E7D0055F529 /* ForgotPasswordVC.swift in Sources */,
+				BACECC28262B3E4500EEAE16 /* MenuCustCell.swift in Sources */,
 				BA1B2C16261641C5005DF22F /* ViewSuppoters.swift in Sources */,
 				BA1B2BA8261634C6005DF22F /* AppDelegate.swift in Sources */,
 				BA32F4CB2628A7B70055F529 /* DashBoardVC.swift in Sources */,
+				BACECC27262B3E4500EEAE16 /* MenuClassView.swift in Sources */,
 				BA7FC6B82629DAE300673C37 /* VerifyZipCodeVC.swift in Sources */,
 				BA32F4C326289FE30055F529 /* RegistrationVC.swift in Sources */,
+				BACECC44262B413500EEAE16 /* PaymentHistoryVC.swift in Sources */,
 				BA23D6B7262A0BF100564668 /* PaymentVC.swift in Sources */,
+				BACECC3F262B40EB00EEAE16 /* SubscriptionsVC.swift in Sources */,
 				BA32F4B926289CA00055F529 /* LoginVC.swift in Sources */,
+				BACECC35262B407E00EEAE16 /* ChangepasswordVC.swift in Sources */,
+				BACECC4E262B548D00EEAE16 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

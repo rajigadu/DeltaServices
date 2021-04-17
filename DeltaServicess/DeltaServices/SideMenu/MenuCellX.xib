@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="google_sans_medium.ttf">
+            <string>GoogleSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="76" id="Gzk-BT-jid" customClass="MenuCustCell" customModule="DeltaServices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gzk-BT-jid" id="phi-eP-Lth">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ge-JI-vUY">
+                        <rect key="frame" x="0.0" y="0.0" width="391" height="76"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LgS-J5-sXN">
+                                <rect key="frame" x="94" y="28" width="42" height="20"/>
+                                <fontDescription key="fontDescription" name="GoogleSans-Medium" family="Google Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X8U-da-4T1">
+                                <rect key="frame" x="50" y="28" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0mX-VM-jT3"/>
+                                    <constraint firstAttribute="width" constant="20" id="9qd-Tq-1zM"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LID-hX-QiM">
+                                <rect key="frame" x="0.0" y="0.0" width="391" height="76"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LgS-J5-sXN" firstAttribute="leading" secondItem="X8U-da-4T1" secondAttribute="trailing" constant="24" id="NP8-nc-AYe"/>
+                            <constraint firstItem="LgS-J5-sXN" firstAttribute="centerY" secondItem="X8U-da-4T1" secondAttribute="centerY" id="WEe-5c-amy"/>
+                            <constraint firstAttribute="trailing" secondItem="LID-hX-QiM" secondAttribute="trailing" id="YNU-z5-BJv"/>
+                            <constraint firstItem="X8U-da-4T1" firstAttribute="leading" secondItem="1Ge-JI-vUY" secondAttribute="leading" constant="50" id="Zoh-CQ-KOp"/>
+                            <constraint firstItem="X8U-da-4T1" firstAttribute="centerY" secondItem="1Ge-JI-vUY" secondAttribute="centerY" id="rOx-CO-Ozv"/>
+                            <constraint firstAttribute="bottom" secondItem="LID-hX-QiM" secondAttribute="bottom" id="vXX-NK-Rm1"/>
+                            <constraint firstItem="LID-hX-QiM" firstAttribute="top" secondItem="1Ge-JI-vUY" secondAttribute="top" id="wAG-dv-8b9"/>
+                            <constraint firstItem="LID-hX-QiM" firstAttribute="leading" secondItem="1Ge-JI-vUY" secondAttribute="leading" id="wdh-Gs-oQd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1Ge-JI-vUY" secondAttribute="bottom" id="0TA-se-4uQ"/>
+                    <constraint firstItem="1Ge-JI-vUY" firstAttribute="top" secondItem="phi-eP-Lth" secondAttribute="top" id="Buh-4p-q7t"/>
+                    <constraint firstItem="1Ge-JI-vUY" firstAttribute="leading" secondItem="phi-eP-Lth" secondAttribute="leading" id="T7V-NL-453"/>
+                    <constraint firstAttribute="trailing" secondItem="1Ge-JI-vUY" secondAttribute="trailing" id="ibX-2t-NmI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="buttonTapOut" destination="LID-hX-QiM" id="QYr-SJ-5kO"/>
+                <outlet property="icon" destination="X8U-da-4T1" id="fm9-8O-XNj"/>
+                <outlet property="label" destination="LgS-J5-sXN" id="xWN-LR-rdw"/>
+            </connections>
+            <point key="canvasLocation" x="10.4" y="-248.27586206896552"/>
+        </tableViewCell>
+    </objects>
+</document>
